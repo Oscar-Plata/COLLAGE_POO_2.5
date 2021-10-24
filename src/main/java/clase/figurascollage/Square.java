@@ -10,9 +10,10 @@ import java.awt.*;
 /**
  * A square that can be manipulated and that draws itself on a canvas. Cuadrado
  * que se puede dibujar en el canvas
+ * 
  *
  * @author Michael Kölling and David J. Barnes ~ Oscar LP Plata
- * @version 14/09/21
+ * @version 14/09/21 / 20/10/21
  */
 public class Square {
 

@@ -8,8 +8,9 @@ package clase.figurascollage;
 import java.awt.*;
 
 /**
- *
- * @author oscar
+ * Creador  de rectangulos para dibujar en canvas
+ * @author oscar jl Plata
+ * @version 20/10/21
  */
 public class Rectangulo {
 

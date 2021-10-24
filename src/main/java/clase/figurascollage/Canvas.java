@@ -16,9 +16,9 @@ import java.util.*;
  * "shapes" example.
  *
  * @author: Bruce Quig
- * @author: Michael Kölling (mik)
+ * @author: Michael Kölling (mik) / Oscar Joel Lopez Plata
  *
- * @version 2016.02.29
+ * @version 2016.02.29 / 20/10/21
  */
 public class Canvas {
     // Note: The implementation of this class (specifically the handling of

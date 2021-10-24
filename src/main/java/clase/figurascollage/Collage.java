@@ -8,8 +8,9 @@ package clase.figurascollage;
 import java.util.Random;
 
 /**
- *
- * @author oscar
+ * Clase principal que genera y almacena el collage de figuras 
+ * @author oscar joel Lopez Plata
+ * @version 20/10/21
  */
 public class Collage {
 

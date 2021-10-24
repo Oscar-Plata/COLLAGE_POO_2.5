@@ -8,8 +8,9 @@ package clase.figurascollage;
 import java.util.Scanner;
 
 /**
- *
- * @author oscar
+ * Clase main con menu para manejar los collages
+ * @author oscar jl Plata
+ * @version  20/10/21
  */
 public class main {
 
@@ -26,7 +27,7 @@ public class main {
             comando = sc.next().toLowerCase().charAt(0);
             switch (comando) {
                 case 'a':
-                    if (posicion >= 0 && posicion <= 6) {
+                    if (posicion >= 0 && posicion < 6) {
                         posicion++;
 
                     } else {
@@ -35,7 +36,7 @@ public class main {
                     switchCollage(posicion, cg);
                     break;
                 case 'r':
-                    if (posicion >= 0 && posicion <= 6) {
+                    if (posicion > 0 && posicion <= 6) {
                         posicion--;
                     } else {
                         posicion = 6;
@@ -62,6 +63,7 @@ public class main {
     }
 
     public static void switchCollage(int x, Collage cg) {
+        System.out.println(x);
         switch (x) {
 
             case 1:

@@ -6,8 +6,9 @@
 package clase.figurascollage;
 
 /**
- *
- * @author oscar
+ * Crear trapecios para dibujar en canvas
+ * @author oscar jl Plata
+ * @version 20/10/21
  */
 public class Trapecio {
 
